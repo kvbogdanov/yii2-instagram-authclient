@@ -15,13 +15,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist kotchuprik/yii2-instagram-authclient "*"
+php composer.phar require --prefer-dist kvbogdanov/yii2-instagram-authclient "*"
 ```
 
 or add
 
 ```json
-"kotchuprik/yii2-instagram-authclient": "*"
+"kvbogdanov/yii2-instagram-authclient": "*"
 ```
 
 to the `require` section of your composer.json.
@@ -40,7 +40,7 @@ and add the Instagram client to your auth clients.
         'class' => 'yii\authclient\Collection',
         'clients' => [
             'instagram' => [
-                'class' => 'kotchuprik\authclient\Instagram',
+                'class' => 'kvbogdanov\authclient\Instagram',
                 'clientId' => 'instagram_client_id',
                 'clientSecret' => 'instagram_client_secret',
             ],
