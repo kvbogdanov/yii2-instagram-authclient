@@ -1,6 +1,6 @@
 <?php
 
-namespace kotchuprik\authclient;
+namespace kvbogdanov\authclient;
 
 use yii\authclient\OAuth2;
 
