@@ -2,9 +2,9 @@
   "name": "kotchuprik/yii2-instagram-authclient",
   "description": "Instagram extenion for using via yii2-authclient",
   "keywords": ["yii2", "authclient", "oauth", "instagram"],
-  "homepage": "http://github.com/kotchuprik/yii2-instagram-authclient",
+  "homepage": "http://github.com/kvbogdanov/yii2-instagram-authclient",
   "require": {
-    "yiisoft/yii2-authclient": "~2.0@dev"
+    "yiisoft/yii2-authclient": "~2.0"
   },
   "license": "MIT",
   "authors": [
@@ -15,8 +15,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "kotchuprik\\authclient\\": ""
+      "kvbogdanov\\authclient\\": ""
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }
