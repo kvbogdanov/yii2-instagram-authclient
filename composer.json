@@ -1,5 +1,5 @@
 {
-  "name": "kotchuprik/yii2-instagram-authclient",
+  "name": "kvbogdanov/yii2-instagram-authclient",
   "description": "Instagram extenion for using via yii2-authclient",
   "keywords": ["yii2", "authclient", "oauth", "instagram"],
   "homepage": "http://github.com/kvbogdanov/yii2-instagram-authclient",
